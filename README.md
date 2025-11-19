@@ -70,8 +70,8 @@ O sistema utiliza uma arquitetura modular com orquestração inteligente:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/assistente-parque-tijuca.git
-cd assistente-parque-tijuca
+git clone https://github.com/ankra22/friend-of-nature.git
+cd friend-of-nature
 ```
 
 2. Crie um ambiente virtual:
@@ -104,7 +104,7 @@ WEATHER_API_KEY=sua_chave_weatherapi_aqui
 ### 1. Processar PDFs de Informações Gerais
 
 ```bash
-python processa_pdf.py
+python banco de dados.py
 ```
 
 Selecione a pasta contendo os PDFs do Plano de Manejo do parque. O script irá:
@@ -115,7 +115,7 @@ Selecione a pasta contendo os PDFs do Plano de Manejo do parque. O script irá:
 ### 2. Processar PDFs com Mapas de Trilhas
 
 ```bash
-python processa_pdf_imagens.py
+python banco de dados trilhas.py
 ```
 
 Selecione a pasta com PDFs contendo mapas. O script irá:
@@ -140,7 +140,7 @@ Comandos disponíveis:
 ### Interface Web (Streamlit)
 
 ```bash
-streamlit run interface_streamlit.py
+streamlit run app.py
 ```
 
 Acesse em seu navegador: `http://localhost:8501`
@@ -169,7 +169,7 @@ Assistente: O Parque Nacional da Tijuca abriga uma rica fauna,
 incluindo macacos-prego, preguiças, quatis...
 ```
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 assistente-parque-tijuca/
