@@ -7,7 +7,7 @@ Um sistema inteligente de assistência para visitantes do Parque Nacional da Tij
 Este assistente virtual combina processamento de linguagem natural, busca vetorial e APIs externas para fornecer informações precisas sobre:
 
 - 🌦️ **Clima e Previsão do Tempo** - Condições meteorológicas em tempo real
-- 🗺️ **Trilhas e Mapas** - Informações detalhadas sobre rotas, com visualização de mapas extraídos de PDFs
+- 🗺️ **Trilhas e Mapas** - Informações detalhadas sobre trilhas
 - 🌿 **Informações Gerais** - Fauna, flora, história e regras do parque
 
 ##  Arquitetura
@@ -172,7 +172,7 @@ incluindo macacos-prego, preguiças, quatis...
 ##  Estrutura do Projeto
 
 ```
-assistente-parque-tijuca/
+friend-of-nature/
 ├── agente_orquestrador.py      # Orquestrador principal
 ├── agente_clima.py             # Agente de clima
 ├── agente_geral.py             # Agente RAG geral
@@ -187,7 +187,7 @@ assistente-parque-tijuca/
 └── README.md
 ```
 
-## 🔧 Configuração Avançada
+##  Configuração Avançada
 
 ### Ajuste de Parâmetros RAG
 
@@ -216,9 +216,17 @@ Modelos disponíveis:
 - `mixtral-8x7b-32768`
 - `gemma-7b-it`
 
-## 📝 Licença
+##  Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## Contribuidores
+
+**Espaço para creditar os contribuidores para este projeto:**
+- Alan Fonseca de Souza
+- Fernando Lira Barbosa
+- Igor Pereira Affonso
+- Rodrigo Tadeu M. A. Dau
 
 ## 🙏 Agradecimentos
 
