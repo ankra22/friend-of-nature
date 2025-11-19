@@ -145,7 +145,7 @@ streamlit run app.py
 
 Acesse em seu navegador: `http://localhost:8501`
 
-## 💬 Exemplos de Uso
+##  Exemplos de Uso
 
 **Clima:**
 ```
