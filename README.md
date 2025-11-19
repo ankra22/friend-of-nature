@@ -228,8 +228,9 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 - Igor Pereira Affonso
 - Rodrigo Tadeu M. A. Dau
 
-## 🙏 Agradecimentos
+##  Agradecimentos
 
 - ICMBio - Instituto Chico Mendes de Conservação da Biodiversidade
 - Parque Nacional da Tijuca
 - Comunidade de desenvolvedores de IA e RAG
+- Equipe WolfByte do IEEE por todo o suporte
